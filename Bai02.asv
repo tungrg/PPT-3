@@ -1,0 +1,4 @@
+function[] = bai02()
+f = @(x) x + sin(x) - 2;
+delta = 10^(-4);
+phi = @(x) 2 - sin(x)
